@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+}
+
+.siteHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  .siteHeader__section {
+    display: flex;
+    align-items: center;
+  }
+
+    .siteHeader__item {
+      padding: 5px 15px;
+      font-size: 17px;
+    }
+
+    .siteHeader__item + .siteHeader__item {
+      margin-left: 5px;
+    }
+
+
+    .siteHeaderLogo {
+      font-size: 20px;
+      line-height: 0;
+      color: white;
+    }
+
+
+.img {
+  height: 40px;
+}
+
+.bærekraft {
+  color: antiquewhite;
+  background-color: darkblue;
+  padding: 3px;
+  border-radius: 3px;
+}
